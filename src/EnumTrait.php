@@ -18,7 +18,7 @@ trait EnumTrait
         __call as metadataCall;
     }
 
-    public function dynamicIs($method): bool
+    protected function dynamicIs($method): bool
     {
         return $this->name === strtoupper(substr($method, 2));
     }

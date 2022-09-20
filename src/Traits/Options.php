@@ -22,7 +22,7 @@ trait Options
         return $options;
     }
 
-    public function getCustomOptions(): array
+    protected function getCustomOptions(): array
     {
         return [
             'label' => $this->label(),
