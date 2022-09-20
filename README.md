@@ -60,7 +60,7 @@ class Color extends MetaProperty
 }
 // Color.php end
 
-// Laravel 模型忠使用
+// Laravel 模型中使用
 protected $casts = [
     'status' => UserStatus::class,
 ];
