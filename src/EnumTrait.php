@@ -1,12 +1,12 @@
 <?php
 
-namespace Mitoop\Enums;
+namespace Mitoop\Enum;
 
 use ArchTech\Enums\InvokableCases;
 use ArchTech\Enums\Metadata;
 use ArchTech\Enums\Names;
 use ArchTech\Enums\Values;
-use Mitoop\Enums\Traits\Options;
+use Mitoop\Enum\Traits\Options;
 
 trait EnumTrait
 {

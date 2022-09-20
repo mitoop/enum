@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Enums\Contracts;
+namespace Mitoop\Enum\Contracts;
 
 interface EnumOptionInterface
 {

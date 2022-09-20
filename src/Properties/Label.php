@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitoop\Enums\Properties;
+namespace Mitoop\Enum\Properties;
 
 use ArchTech\Enums\Meta\MetaProperty;
 use Attribute;

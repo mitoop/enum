@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitoop\Enums\Traits;
+namespace Mitoop\Enum\Traits;
 
 trait Options
 {
