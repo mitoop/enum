@@ -48,7 +48,8 @@ enum UserStatus: int implements EnumOptionInterface
 namespace App\Enums\Properties;
 
 use ArchTech\Enums\Meta\MetaProperty;
-use Attribute;use http\Client\Curl\User;
+use Attribute;
+use App\Models\User;
 
 #[Attribute]
 class Color extends MetaProperty
