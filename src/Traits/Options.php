@@ -6,20 +6,12 @@ trait Options
 {
     public static function options(): array
     {
-        $cases = static::cases();
-
-        $options = [];
-
-        foreach ($cases as $case) {
-            $item = [
+        return array_map(static function ($case) {
+            return array_merge([
                 'name' => $case->name,
                 'value' => $case->value,
-            ];
-
-            $options[] = method_exists($case, 'getCustomOptions') ? array_merge($item, $case->getCustomOptions()) : $item;
-        }
-
-        return $options;
+            ], $case->getCustomOptions());
+        }, static::cases());
     }
 
     public function getCustomOptions(): array
