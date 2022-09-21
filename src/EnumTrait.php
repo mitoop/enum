@@ -20,6 +20,7 @@ trait EnumTrait
 
     protected function dynamicIs($method): bool
     {
+        /** @var \BackedEnum $this */
         return $this->name === strtoupper(substr($method, 2));
     }
 
